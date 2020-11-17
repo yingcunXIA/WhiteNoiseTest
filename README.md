@@ -1,6 +1,7 @@
-# It contains R code for WN test of high-dimensional time series with observations X: nxp (n realizations of p-dimensional time series). It can also do the WN test for fitted residuals of VAR model based on LASSO estimation.  The main code is wnSVAR.R
+It contains R code for WN test of high-dimensional time series with observations X: nxp (n realizations of p-dimensional time series). It can also do the WN test for fitted residuals of VAR model based on LASSO estimation.  The main code is wnSVAR.R
 
 Example
+
     source('wnSVAR.R')
     X = matrix(rnorm(100*20), 100, 20)
     output = wnSVAR(X, K = 10)
